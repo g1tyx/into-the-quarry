@@ -85,7 +85,7 @@ var cnItems = {
     "gold": "黄金",
     "Haste": "急速",
     "Help!": "帮助！",
-    "Hover for Possible Drops": "悬停可能的掉落",
+    "Hover for Possible Drops": "悬浮鼠标查看可掉落物品表",
     "Improves mining droprates for gold and [*] keys.": "提高黄金和 [*] 钥匙的采矿掉落率。",
     "Increases base mining speed.": "提高基础采矿速度。",
     "Increases gem yield. Improved after level 100.": "增加宝石产量。 100级后提升。",
