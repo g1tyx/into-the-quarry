@@ -158,8 +158,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("entry/start.c82194ce.js"),
-						import("entry/app.a0d33496.js")
+						import("./entry/start.c82194ce.js"),
+						import("./entry/app.a0d33496.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
