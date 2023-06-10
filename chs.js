@@ -214,7 +214,7 @@ var cnItems = {
     "(no bonus)": "(无奖励)",
     "Accumulate a multiplier to crystals as more clicks are made (max 10,000).": "随着点击次数的增加（最多 10,000 次），累积乘数到水晶。",
     "Clicks Today:": "今日点击：",
-    "crystal bonus": "水晶红利",
+    "crystal bonus": "水晶奖励",
     "Fame Bonus": "声誉奖励",
     "Gem Bonus": "宝石奖励",
     "Hot Button": "热键",
