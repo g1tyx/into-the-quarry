@@ -613,6 +613,7 @@ var cnRegReplace = new Map([
     [/^You are gaining (.+) elves per second$/, '你每秒获得 $1 精灵'],
     [/^You have (.+) points$/, '你有 $1 点数'],
     [/^Next at (.+) points$/, '下一个在 $1 点数'],
+    [/^(.+) \[ LUCKY! x(.+) \]$/, '$1 \[ 幸运! x$2 \]'],
 	[/^([\d\.]+)\/sec$/, '$1\/秒'],
 	[/^([\d\.,]+)\/sec$/, '$1\/秒'],
 	[/^([\d\.,]+) OOMs\/sec$/, '$1 OOMs\/秒'],
