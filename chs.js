@@ -365,7 +365,7 @@ var cnItems = {
     "created by bejewelled, all rights reserved": "由 bejewelled 创建，保留所有权利",
     "Enable/disable activity log entries": "启用/禁用活动日志条目",
     "Mining (gems)": "采矿（宝石）",
-    "Mining (key finder)": "采矿（关键发现者）",
+    "Mining (key finder)": "采矿（钥匙发现者）",
     "": "",
     "": "",
     "": "",
