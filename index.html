@@ -5,8 +5,8 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		
-		<link href="assets/0.86a8c1ac.css" rel="stylesheet">
-		<link href="assets/2.be75d62f.css" rel="stylesheet">
+		<link href="./assets/0.a8d9eb8e.css" rel="stylesheet">
+		<link href="./assets/2.be75d62f.css" rel="stylesheet">
 	</head>
 	<body data-sveltekit-preload-data="hover">
         <script src="chs.js"></script>
@@ -28,16 +28,17 @@
             
             
             
-            <div class="col-span-12 has-tooltip"><div class="text-[#989898] text-small pt-4 pb-1">Mining Level 
+            <div class="col-span-12 grid grid-cols-7 has-tooltip"><div class="text-[#989898] text-small col-span-2 text-left pt-4 pb-1">Mining Level 
                     <span class="font-bold text-cyan-400">0</span></div>
+                
                 <span class="px-2 mx-4 tooltip tooltip-text shadow-lg p-1 border-white border-double border bg-[#222529] ml-16 pointer-events-none max-w-[300px] text-center weight-bold"><div class="grid grid-cols-3"><div class="col-span-3 text-center text-cyan-500">[ 0 / 100 ]
                         </div>
-                        <div class="col-span-3 text-center">Each mine operation gives 1 xp.
+                        <div class="col-span-3 text-center">Each mine operation gives <strong>1.00</strong> xp.
                         </div>
-                        <div class="col-span-3 text-center">Each button hit gives 1 - 3 xp.
+                        <div class="col-span-3 text-center">Button hits give xp based on quality.
                         </div></div></span></div>
 
-            <div class="col-span-12"><div class="mine-bar-wrapper pb-2"><div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700"><div class="text-cyan-500 h-2.5 rounded-full" style="width: 0%"></div></div></div></div>
+            <div class="col-span-12"><div class="mine-bar-wrapper pb-2"><div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700"><div class="bg-cyan-500 h-2.5 rounded-full" style="width: 0%"></div></div></div></div>
 
                 <div class="alog-break pt-4 col-span-12"></div>
                 <div class="alog-title game-text col-span-9 ">Activity Log</div>
@@ -56,7 +57,7 @@
                 <button class="py-1 px-1 text-small save-btn control-btn">Help!</button>   
                 <button class="py-1 px-1 text-small save-btn control-btn">Settings</button>   
                 <button class="py-1 text-small border-2 border-red-600 text-red-600 hover:bg-red-950">Reset</button>
-                <button class="text-xs text-gray-600">v0.0.4a-1</button></div>
+                <button class="text-xs text-gray-600">v0.0.4a-3</button></div>
             <div class="row-span-1 tab-buttons"><button class="px-1 py-1 text-small control-btn-selected">mining</button><button class="px-1 py-1 text-small control-btn">keys</button><button class="px-1 py-1 text-small control-btn-nounlock">beacons</button><button class="px-1 py-1 text-small control-btn-nounlock">button</button><button class="px-1 py-1 text-small control-btn-nounlock">relocate</button><button class="px-1 py-1 text-small control-btn-nounlock">enchants</button><button class="px-1 py-1 text-small control-btn-nounlock">automation</button><button class="px-1 py-1 text-small control-btn-nounlock">challenges</button><button class="px-1 py-1 text-small control-btn-nounlock">artifacts</button><button class="px-1 py-1 text-small control-btn-nounlock">ascension</button><button class="px-1 py-1 text-small control-btn-nounlock">mastery</button></div>
             <div class="row-span-10 main-panel-display"><div class="wrapper py-2"><div class="has-tooltip mining-flavor game-btn text-med text-center items-right">Hover for Possible Drops
         <span class="px-2 tooltip tooltip-text shadow-lg p-1 border-white border-double border bg-[#222529] ml-20 pointer-events-none">
@@ -156,7 +157,7 @@
 			
 			<script>
 				{
-					__sveltekit_1nuxyje = {
+					__sveltekit_17zjd98 = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
 					};
@@ -166,8 +167,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./entry/start.a9acdffb.js"),
-						import("./entry/app.f7f754a6.js")
+						import("./entry/start.21c2f840.js"),
+						import("./entry/app.3882406b.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
@@ -196,6 +197,5 @@ var _hmt = _hmt || [];
 })();
 </script>
     </div>
-
 	</body>
 </html>
