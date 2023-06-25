@@ -11,6 +11,7 @@
 	<body data-sveltekit-preload-data="hover">
         <script src="chs.js"></script>
         <script src="core.js"></script>
+
 		<div style="display: contents">
 
 
@@ -35,7 +36,7 @@
                         </div>
                         <div class="col-span-3 text-center">Each mine operation gives <strong>1.00</strong> xp.
                         </div>
-                        <div class="col-span-3 text-center">Button hits give xp based on quality.
+                        <div class="col-span-3 text-center">This value increases based on the total amount of fame gained across all reset tiers.
                         </div></div></span></div>
 
             <div class="col-span-12"><div class="mine-bar-wrapper pb-2"><div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700"><div class="bg-cyan-500 h-2.5 rounded-full" style="width: 0%"></div></div></div></div>
@@ -57,7 +58,7 @@
                 <button class="py-1 px-1 text-small save-btn control-btn">Help!</button>   
                 <button class="py-1 px-1 text-small save-btn control-btn">Settings</button>   
                 <button class="py-1 text-small border-2 border-red-600 text-red-600 hover:bg-red-950">Reset</button>
-                <button class="text-xs text-gray-600">v0.0.4a-3</button></div>
+                <button class="text-xs text-gray-600">v0.0.4a-4</button></div>
             <div class="row-span-1 tab-buttons"><button class="px-1 py-1 text-small control-btn-selected">mining</button><button class="px-1 py-1 text-small control-btn">keys</button><button class="px-1 py-1 text-small control-btn-nounlock">beacons</button><button class="px-1 py-1 text-small control-btn-nounlock">button</button><button class="px-1 py-1 text-small control-btn-nounlock">relocate</button><button class="px-1 py-1 text-small control-btn-nounlock">enchants</button><button class="px-1 py-1 text-small control-btn-nounlock">automation</button><button class="px-1 py-1 text-small control-btn-nounlock">challenges</button><button class="px-1 py-1 text-small control-btn-nounlock">artifacts</button><button class="px-1 py-1 text-small control-btn-nounlock">ascension</button><button class="px-1 py-1 text-small control-btn-nounlock">mastery</button></div>
             <div class="row-span-10 main-panel-display"><div class="wrapper py-2"><div class="has-tooltip mining-flavor game-btn text-med text-center items-right">Hover for Possible Drops
         <span class="px-2 tooltip tooltip-text shadow-lg p-1 border-white border-double border bg-[#222529] ml-20 pointer-events-none">
@@ -72,6 +73,12 @@
                 </div>
                 <div class="col-span-3 text-left pl-[8px] text-green-400">???</div>
                 <div class="col-span-3 text-left pl-1">2.500%</div>
+                <div class="col-span-2 text-right pl-1">[ 1 - 1 ]
+                </div>
+            </div><div class="drop-table-disp grid grid-cols-9"><div class="col-span-1 text-left text-white">[I]
+                </div>
+                <div class="col-span-3 text-left pl-[8px] text-neutral-400">???</div>
+                <div class="col-span-3 text-left pl-1">0.700%</div>
                 <div class="col-span-2 text-right pl-1">[ 1 - 1 ]
                 </div>
             </div></span></div>
@@ -157,7 +164,7 @@
 			
 			<script>
 				{
-					__sveltekit_17zjd98 = {
+					__sveltekit_1u5wign = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
 					};
@@ -167,8 +174,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./entry/start.21c2f840.js"),
-						import("./entry/app.3882406b.js")
+						import("./entry/start.57e82036.js"),
+						import("./entry/app.8d8d30f5.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
