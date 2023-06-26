@@ -430,7 +430,7 @@ var cnItems = {
     "You can now hold enter to click the button really really fast (you will only get \"okay\" clicks).": "现在，您可以按住 Enter 键以非常非常快地单击按钮（您只会得到“好的”点击）。",
     "You can trigger enchants 10% faster.": "你触发附魔的速度可以加快 10%。",
     "Every time a mining cycle completes, you gain 1 progress point towards an enchant cycle. When the enchant bar of each respective color fills, there's a chance for all enchants of the same color as the bar to fire (chance shown on tooltips), giving a very powerful bonus. Upgrade your enchants to increase the proc chance.": "每次采矿周期完成时，您都会获得 1 个附魔周期的进度点。 当每种颜色的附魔条填满时，所有与该条颜色相同的附魔都有机会触发（机会显示在工具提示上），从而提供非常强大的奖励。 升级你的附魔以增加触发几率。",
-    "": "",
+    "Tier 1 and 2 keys will be reset.": "第 1 层和第 2 层钥匙将被重置。",
     "": "",
     "": "",
     "": "",
