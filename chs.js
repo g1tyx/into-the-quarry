@@ -72,7 +72,7 @@ var cnItems = {
     "button": "按钮",
     "Buy Max": "购买最大",
     "Buy Max only works on Mining and Enchant upgrades.": "购买 Max 只适用于采矿和附魔升级。",
-    "Buy x": "买 x",
+    "Buy x": "购买 x",
     "Buy x1": "购买 x1",
     "challenges": "挑战",
     "Each button hit gives 1 - 3 xp.": "每个按钮点击给出 1 - 3 xp。",
