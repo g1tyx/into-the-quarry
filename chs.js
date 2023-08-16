@@ -640,7 +640,7 @@ var cnItems = {
     "Vibranium": "振金",
     "Xenoverse": "异界",
     "Any augments that boost production do so multiplicatively.": "任何能够提高产量的增强措施都会成倍增加。",
-    "Ascension resets most things up to this point (except for mastery)  , but allows you to harness the elements to\n        make your next legacy stronger.": "到目前为止，扬升重置了大部分内容（除了精通），但允许你利用这些元素来\n让你的下一个遗产变得更强大。",
+    "Ascension resets most things up to this point (except for mastery)  , but allows you to harness the elements to\n        make your next legacy stronger.": "到目前为止，转生重置了大部分内容（除了精通），但允许你利用这些元素来\n让你的下一个遗产变得更强大。",
     "Ascensions will eventually unlock more boosts.": "提升最终将解锁更多提升。",
     "Beacon level progress requirements scale exponentially, not linearly.": "信标级进度要求呈指数级增长，而不是线性增长。",
     "enchant progress.": "附魔进度。",
